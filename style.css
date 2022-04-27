@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Rubik+Mono+One&display=swap');
+
+body {
+	background-image: url('assets/background.svg');
+	background-color: #171212;
+	background-size: cover;
+}
+
+.header {
+	position: absolute;
+	width: 767px;
+	height: 218px;
+	left: calc(50% - 767px/2 + 0.5px);
+	top: calc(50% - 218px/2 - 258px);
+	background: #1C1C1C;
+	border: 4px solid #553D73;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 69px rgba(85, 61, 115, 0.35);
+	border-radius: 22px;
+	text-align: center;
+}
+
+.header-title {
+	font-family: Rubik Mono One;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	color: #553D73;
+}
+
+.buttons {
+	transition: 0.3s;
+}
+
+.btn {
+	position: absolute;
+	text-decoration: none;
+	font-family: Rosario;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 38px;
+	color: #7000FF;
+	background: #1F1B24;
+	border: 3px solid #2F2937;
+	box-sizing: border-box;
+	border-radius: 30px;
+	transition: 0.3s;
+}
+
+.btn:hover {
+	border-radius: 4px;
+	box-shadow: 0px 19px 54px rgba(0, 0, 0, 0.62);
+	border: 3px solid #433C4B;
+}
+
+._tg {
+	left: calc(50% - 335px/2 + 0.5px);
+	top: calc(50% - 92px/2 + 324px);
+	padding: 10px 80px;
+}
+
+._yt {
+	padding: 10px 100px;
+	left: calc(50% - 335px/2 + 0.5px);
+	top: calc(50% - 0px/2 + 404px);
+}
+
+._vk {
+	padding: 10px 100px;
+	left: calc(13% - 335px/2 + 0.5px);
+	top: calc(50% - 0px/2 + 404px);
